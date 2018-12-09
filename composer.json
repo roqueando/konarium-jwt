@@ -1,0 +1,22 @@
+{
+    "name": "Konarium/Token",
+    "description": "Konarium Team JWT Token Library",
+    "type": "package",
+    "require": {
+        "php": ">=7.1"
+    },
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Vitor Roque",
+            "email": "roque@konariumteam.com",
+            "homepage": "http://roque.konariumteam.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Konarium\\Token\\": "src/"
+        }
+    }
+}
